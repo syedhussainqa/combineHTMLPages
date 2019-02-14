@@ -13,10 +13,14 @@ font-family: 'Montserrat', sans-serif;
   float: right;
   border-color: beige;
     border: 1px;
-     
+
 
 }
-
+.name{
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
 .pill-nav a:hover {
   background-color:beige;
@@ -66,11 +70,11 @@ font-family: 'Montserrat', sans-serif;
 }
 .i-am{
     background-color: azure;
-    
+
 }
 .about-me{
     background-color: beige;
-    
+
 }
 .travel{
     background-color: azure;
@@ -80,7 +84,7 @@ font-family: 'Montserrat', sans-serif;
     width: auto;
     border-radius: 10px;
     margin-left: 40px;
-    
+
 }
 #my-journey-text{
     padding-top: 50px;
@@ -90,7 +94,7 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
 }
 .button {
-  
+
   border: none;
   color: white;
   padding: 10px 10px;
@@ -101,13 +105,13 @@ font-family: 'Montserrat', sans-serif;
   margin: 4px 2px;
   transition-duration: 0.2s;
   cursor: pointer;
-  border-radius: 8px;    
+  border-radius: 8px;
 }
 
 
 .button2 {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid beige;
 
 }
@@ -117,8 +121,8 @@ font-family: 'Montserrat', sans-serif;
   color: black;
 }
 .button1 {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid azure;
 }
 
@@ -155,22 +159,22 @@ font-family: 'Montserrat', sans-serif;
 .fa-linkedin {
   background-color: lightblue;
   color: white;
-  margin-right: 10px;    
+  margin-right: 10px;
 }
 .fa-github{
     background-color: gainsboro;
   color: white;
-  margin-right: 10px;    
+  margin-right: 10px;
 }
 
 
 .img-1{
     position: relative;
-    margin-left: -380px;
+    /* margin-left: -380px;
     width: 6000px;
-    height: 500px;
-    
-    
+     */
+
+
 }
 
 
@@ -220,7 +224,7 @@ font-family: 'Montserrat', sans-serif;
     height: 500px;
     width: auto;
     padding-left: 250px;
-    
+
 }
 .header-container{
     background-color: azure;
@@ -239,9 +243,8 @@ li{
 }
 .header-travel{
     background-color: azure;
-    
+
 }
 #travel-p1{
     background-color: beige;
 }
-
